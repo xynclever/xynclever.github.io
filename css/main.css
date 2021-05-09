@@ -1,0 +1,46 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #f1f1f8;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+table {
+  max-width: 2960px;
+  margin: 18px auto;
+}
+
+caption {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 12px 0;
+}
+
+thead th {
+  background: #4633af	;
+  color: #fff;
+  font-weight: initial;
+}
+
+tr { background: #262431; }
+
+tr:nth-child(2n) { background: #2f2c3d; }
+
+th, td {
+  text-align: left;
+  padding: 24px;
+}
+
+tfoot tr { background: none; }
+
+tfoot td {
+  padding: 12px 2px;
+  font-style: italic;
+  color: #8a97a0;
+}
